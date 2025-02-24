@@ -36,7 +36,7 @@ const JobCard = ({ job }) => {
                 </div>
                 <p className="text-gray-700">{job.description}</p>
                 <Link to={`/jobs/${String(job.id)}`}>
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                    <button className="bg-blue-500 text-white cursor-pointer px-4 py-2 rounded-lg hover:bg-blue-700 transition">
                         Details
                     </button>
                 </Link>
